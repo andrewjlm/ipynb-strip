@@ -4,8 +4,6 @@ import json
 
 from typing import Dict
 
-logging.getLogger().setLevel(logging.DEBUG)
-
 # TODO: Should we have a --file option instead of piping?
 
 def check_metadata(parsed_json: Dict[str, str]) -> bool:
